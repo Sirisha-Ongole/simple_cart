@@ -25,90 +25,9 @@ This is jquery plugin for a simple cart functionality. The simple shopping cart 
 ## Include HTML there are tow parts 'Products' & 'Cart'
 
 **Products HTML**
-```
-<div class="col-md-9 search-grid">
-<div class="product-container">
-<!-- Menu List of items -->
-<div class="menu-list">
-<div class="panel panel-default" id="content1">
-<div class="panel-heading">Products</div>
-<div class="panel-body">
-<div class="row">
-<div class="col-md-6">
-    <div class="menu-item-container"><div class="item-name">Veg biriyani</div><div><i class="veg-icon"></i></div>
-        <div class="item-price-container">
-            <div class="item-price">
-                <i class="fa fa-rupee"></i>199
-            </div>
-            <div class="spacer"></div>
-            <div class="add-button">
-                <button class="btn btn-primary sc-add-to-cart" data-name="Veg biriyani" data-price="199" type="submit">ADD</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-md-6">
-    <div class="menu-item-container"><div class="item-name">Sweet Corn Soup</div><div><i class="fa fa-dot-circle-o veg-icon"></i></div>
-        <div class="item-price-container">
-            <div class="item-price">
-                <i class="fa fa-rupee"></i>50
-            </div>
-            <div class="spacer"></div>
-            <div class="add-button">
-                <button class="btn btn-primary sc-add-to-cart" data-name="Sweet Corn Soup" data-price="50" type="submit">ADD</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-md-6">  
-    <div class="menu-item-container"><div class="item-name">Corn fried Rice</div><div><i class="fa fa-dot-circle-o veg-icon"></i></div>
-        <div class="item-price-container">
-            <div class="item-price">
-                <i class="fa fa-rupee"></i>112
-            </div>
-            <div class="spacer"></div>
-            <div class="add-button">
-                <button class="btn btn-primary sc-add-to-cart" data-name="Corn fried Rice" data-price="112" type="submit">ADD</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-md-6">
-    <div class="menu-item-container"><div class="item-name">Orange Juice</div><div><i class="fa fa-dot-circle-o veg-icon"></i></div>
-        <div class="item-price-container">
-            <div class="item-price">
-                <i class="fa fa-rupee"></i>50
-            </div>
-            <div class="spacer"></div>
-            <div class="add-button">
-                <button class="btn btn-primary sc-add-to-cart" data-name="Orange Juice" data-price="50" type="submit">ADD</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-md-6">
-    <div class="menu-item-container">
-        <div class="item-name">Aloo Tikis</div>
-        <div><i class="fa fa-dot-circle-o veg-icon"></i></div>
-        <div class="item-price-container">
-            <div class="item-price">
-                <i class="fa fa-rupee"></i>89
-            </div>
-            <div class="spacer"></div>
-            <div class="add-button">
-                <button class="btn btn-primary sc-add-to-cart" data-name="Aloo Tikis" data-price="89" type="submit">ADD</button>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- //Menu List of items -->
-</div>
-</div>
-```
+
+    Check the Example HTML for the sample code. Or you can just add class 'sc-add-to-cart' to the products add button.
+    
 **Cart HTML**
 ```
 <div class="col-md-3">
