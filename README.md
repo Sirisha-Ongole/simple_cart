@@ -43,3 +43,6 @@ This is jquery plugin for a simple cart functionality. The simple shopping cart 
     });
 </script>
 ```
+**Example**
+
+![example](https://user-images.githubusercontent.com/40199915/41341960-afaaf7f0-6f18-11e8-8bf7-c04770b599ed.png)
